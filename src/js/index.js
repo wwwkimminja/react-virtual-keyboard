@@ -1,3 +1,4 @@
-import "../css/style.css"
+import "../css/style.css";
+import { Keyboard } from "./keyboard";
 
-console.log("hi")
+const keyboard = new Keyboard();
