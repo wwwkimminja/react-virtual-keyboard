@@ -1,26 +1,23 @@
 # react-virtual-keyboard
 
-### npm init -y
+npm init -y
 
-package.json
+### install
 
-### npm i -D webpack webpack-cli webpack-dev-server
+-D webpack webpack-cli webpack-dev-server
 
-### npm i -D terser-webpack-plugin
-
-webpack.config.js
-`optimization: {
-        minimizer: [new TerserWebpackPlugin()]
-    }`
+-D terser-webpack-plugin
 
 ### npx webpack
 
 create bundle.js
 
-### npm i -D html-webpack-plugin
+### html,css 関連 install
 
-### npm i -D mini-css-extract-plugin css-loader css-minimizer-webpack-plugin
+-D html-webpack-plugin
+
+-D mini-css-extract-plugin css-loader css-minimizer-webpack-plugin
 
 ## npx eslint --init
 
-eslint cn
+create .eslintrc.json
