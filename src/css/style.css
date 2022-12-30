@@ -163,3 +163,23 @@ input:checked + .slider::before {
   text-align: center;
   display: block;
 }
+
+.error-message {
+  color: #cc0033;
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.input-group .error-message {
+  display: none;
+}
+
+.error input {
+  border-bottom: 2px solid red;
+}
+
+.error .error-message {
+  display: block;
+}
